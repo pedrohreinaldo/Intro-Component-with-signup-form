@@ -13,7 +13,7 @@ body {
   padding: 2rem;
   margin: 1rem;
 }
-.freeTrial {
+.btn-freeTrial {
   background-color: hsl(248, 32%, 49%);
   width: 100%;
   height: 3rem;
@@ -26,33 +26,29 @@ body {
   font-weight: bold;
   margin: 1rem 0;
 }
-.freeTrial span {
+.btn-freeTrial__observation {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.664);
 }
-form {
+.form {
   background-color: white;
   border-radius: 0.5rem;
   -webkit-box-shadow: 0px 5px 13px -4px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 5px 13px -4px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 5px 13px -4px rgba(0, 0, 0, 0.75);
   border: 0ch;
-}
-.inputContainer {
   padding: 2rem 1rem 0;
   display: flex;
   flex-direction: column;
 }
-input {
+.form__input input {
   width: 24rem;
   height: 2.5rem;
   border-radius: 0.5rem;
   border-color: rgba(128, 128, 128, 0.205);
-  /* margin: 1rem 2rem; */
 }
-.inputContainer div{
-    margin: 1rem 2rem;
-
+.form div {
+  margin: 1rem 2rem;
 }
 ::placeholder {
   color: gray;
@@ -60,14 +56,14 @@ input {
   padding-left: 1rem;
 }
 
-input:focus {
+.form__input input:focus {
   font-weight: bold;
   box-sizing: border-box;
   padding-left: 2rem;
   width: 25rem;
   height: 3rem;
 }
-input:valid {
+.form__input input:valid {
   font-weight: bold;
   box-sizing: border-box;
   padding-left: 2rem;
@@ -75,8 +71,7 @@ input:valid {
   height: 3rem;
 }
 
-
-.submitButton {
+.form__btn {
   display: block;
   margin: 1rem 2rem 0;
   width: 24.5rem;
@@ -87,29 +82,31 @@ input:valid {
   color: white;
   font-weight: bold;
 }
-.agreetments {
+.form__agreetments {
   font-size: 0.7rem;
   color: lightgray;
   margin: 0 0;
   padding: 0 3rem 3rem;
 }
-.agreetments a {
+.termsAndServices {
   color: red;
   text-decoration: none;
 }
-.titleDescription {
+.banner {
   padding: 10rem 6rem 0;
   color: white;
 }
-.titleDescription h1 {
+.banner h1 {
   font-size: 3rem;
   padding-right: 4rem;
   line-height: 3rem;
 }
-.inputContainer p{
-        margin: 0;
-        font-size: 0.7rem;
-        font-style: italic;
-        color: red;
-        text-align: end;
+.form__input_alert_show {
+  margin: 0;
+  font-size: 0.7rem;
+  font-style: italic;
+  text-align: end;
+}
+.form__input_alert_hidden {
+  display: none;
 }

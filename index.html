@@ -11,11 +11,11 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>Program Coding</title>
+    <title>Program Codding</title>
   </head>
   <body>
     <div class="container">
-      <div class="titleDescription">
+      <div class="banner">
         <h1>Learn to code by watching others</h1>
         <p>
           See how experienced developers solve problems in real-time. Watching
@@ -24,31 +24,49 @@
         </p>
       </div>
       <div class="subscription">
-        <button class="freeTrial">
-          Try it free 7 days <span> then $20/mo.thereafter</span>
+        <button class="btn-freeTrial">
+          Try it free 7 days
+          <span class="btn-freeTrial__observation">
+            then $20/mo.thereafter</span
+          >
         </button>
-        <form class="submitForm" action="submit">
-          <div class="inputContainer">
-            <div>
-              <input type="text" placeholder="First Name" id="FirstName" />
-              <p >First Name cannot be empty</p>
-            </div>
-            <div>
-                <input type="text" placeholder="Last Name" />
-                <p hidden>Last Name cannot be empty</p>
-            </div>
-            <div>
-                <input type="email" placeholder="Email Adress" />
-                <p hidden>Looks like this is not an email</p>
-            </div>
-            <div>
-                <input type="text" placeholder="Password" />
-                <p hidden>Password cannot be empty</p>
-            </div>
-            
-            <button class="submitButton">CLAIM YOUR FREE TRIAL</button>
+        <form class="form" action="submit">
+          <div class="form__input">
+            <input
+              required
+              type="text"
+              placeholder="First Name"
+              id="lastName"
+            />
+            <p class="form__input_alert_hidden">First Name cannot be empty</p>
           </div>
-          <p class="agreetments">
+          <div class="form__input">
+            <input required type="text" placeholder="Last Name" id="lastName" />
+            <p class="form__input_alert_hidden">Last Name cannot be empty</p>
+          </div>
+          <div class="form__input">
+            <input
+              required
+              type="email"
+              placeholder="Email Adress"
+              id="email"
+            />
+            <p class="form__input_alert_hidden">
+              Looks like this is not an email
+            </p>
+          </div>
+          <div class="form__input">
+            <input
+              required
+              type="password"
+              placeholder="Password"
+              id="password"
+            />
+            <p class="form__input_alert_hidden">Password cannot be empty</p>
+          </div>
+          <button class="form__btn">CLAIM YOUR FREE TRIAL</button>
+
+          <p class="form__agreetments">
             By clicking the button, you are aggreeing to our
             <a class="termsAndServices" href="#">Terms and Services</a>
           </p>
