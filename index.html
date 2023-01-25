@@ -26,23 +26,25 @@
       <div class="subscription">
         <button class="btn-freeTrial">
           Try it free 7 days
-          <span class="btn-freeTrial__observation">
-            then $20/mo.thereafter</span
+          <p class="btn-freeTrial__observation">
+            then $20/mo.thereafter</p
           >
         </button>
-        <form class="form" action="submit">
+        <form class="form">
           <div class="form__input">
             <input
               required
               type="text"
               placeholder="First Name"
-              id="lastName"
+              id="firstName"
             />
-            <p class="form__input_alert_hidden">First Name cannot be empty</p>
+            <img class="alertIcon-hidden" src="images/icon-error.svg"  alt="">
+            <p class="form__input_alert_show"></p>
           </div>
           <div class="form__input">
             <input required type="text" placeholder="Last Name" id="lastName" />
-            <p class="form__input_alert_hidden">Last Name cannot be empty</p>
+            <img class="alertIcon-hidden" src="images/icon-error.svg"  alt="">
+            <p class="form__input_alert_show"></p>
           </div>
           <div class="form__input">
             <input
@@ -50,10 +52,10 @@
               type="email"
               placeholder="Email Adress"
               id="email"
+    
             />
-            <p class="form__input_alert_hidden">
-              Looks like this is not an email
-            </p>
+            <img class="alertIcon-hidden" src="images/icon-error.svg"  alt="">
+            <p class="form__input_alert_show"></p>
           </div>
           <div class="form__input">
             <input
@@ -62,10 +64,10 @@
               placeholder="Password"
               id="password"
             />
-            <p class="form__input_alert_hidden">Password cannot be empty</p>
+            <img class="alertIcon-hidden" src="images/icon-error.svg"  alt="">
+            <p class="form__input_alert_show"></p>
           </div>
-          <button class="form__btn">CLAIM YOUR FREE TRIAL</button>
-
+          <input type="submit" class="form__submit" value="CLAIM YOUR FREE TRIAL" ></input >
           <p class="form__agreetments">
             By clicking the button, you are aggreeing to our
             <a class="termsAndServices" href="#">Terms and Services</a>
@@ -73,5 +75,6 @@
         </form>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
