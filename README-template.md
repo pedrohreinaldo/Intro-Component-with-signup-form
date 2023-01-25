@@ -24,9 +24,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](screenshots/desktopscreenshot.png)
-![Desktop with Alert](screenshots/desktopwithalertscreenshot.png)
-![Mobile version](screenshots/mobilescreenshot.png)
+![Desktop](/screenshots/desktop screenshot.png)
+![Desktop with Alert](/screenshots/desktop with alert screenshot.png)
+![Mobile version](/screenshots/mobile screenshot.png)
 
 
 
