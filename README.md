@@ -32,8 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Sign Up component](https://pedrohreinaldo.github.io/Intro-Component-with-signup-form/)
 
 ## My process
 
